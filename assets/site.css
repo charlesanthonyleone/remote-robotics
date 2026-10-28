@@ -105,3 +105,4 @@ body{padding:0 6px 10px}.tiles{grid-template-columns:1fr 1fr}.sgrid{grid-templat
 .lbl{width:auto;white-space:nowrap;opacity:1;padding:5px 10px}.lbl b{margin:0}.lbl em{display:none;font-style:normal;white-space:normal;width:210px;margin-top:4px}
 .hot:hover .lbl{opacity:.9}.hp:hover .lbl,.hp:focus-visible .lbl,.hp.open .lbl{opacity:1;z-index:3}.hp:hover .lbl em,.hp:focus-visible .lbl em,.hp.open .lbl em{display:block}
 @media(max-width:900px){.hot:hover .lbl{opacity:1}.lbl{font-size:11px}.lbl b{font-size:9.5px}.lbl em{width:150px}.dot{width:13px;height:13px}.dot:after{margin:3px}}
+@media(max-width:520px){.fr-bl{display:none}}
