@@ -193,3 +193,7 @@ footer a{color:var(--mu)}
 section,header{scroll-margin-top:84px}
 .hero{padding-top:170px}.hud .lt,.hud .rt{top:-6px}
 @media (max-width:960px){.classbar{font-size:8px;letter-spacing:.14em;white-space:nowrap;overflow:hidden}.hud .lt{display:none}}
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.gallery figure{aspect-ratio:16/9}.gallery figure:first-child{grid-column:span 2;grid-row:span 2;aspect-ratio:auto}
+.render img{filter:contrast(1.05)}
+@media (max-width:960px){.gallery{grid-template-columns:1fr}.gallery figure:first-child{grid-column:auto;grid-row:auto;aspect-ratio:16/9}}
